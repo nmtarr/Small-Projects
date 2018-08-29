@@ -9,7 +9,6 @@ execfile("T:/Scripts/AppendPaths27.py")
 import gapproduction as gp
 import gapconfig as config
 import pandas as pd
-pd.set_option(")
 aoi = "T:/SmallProjects/PGCLC/pgclc.shp"
 species = gp.gaprange.SppInAOI(AOIShp=aoi,
                                  hucShp=config.hucs,
